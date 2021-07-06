@@ -121,3 +121,37 @@ h3 {
     line-height: 32px;
     font-size: 18px;
 }
+/*------ gallery area------ */
+.gallery h2 {
+    text-align: center;
+}
+.galley-container {
+    display: flex;
+}
+.galley-container div img {
+    width: 95%;
+}
+/*------ subscribe area------ */
+.subscribe-area {
+    text-align: center;
+    background-image:linear-gradient(90deg,#f12b08,#f86909);
+    padding: 50px 0;
+   
+}
+.subscribe-area h2 {
+    color: #fff;
+}
+/* subscribe right */
+.subscribe-right form input[type="email"] {
+    padding: 15px 40px;
+    border: 1px solid #F44509;
+    border-radius: 5px;
+}
+.subscribe-right form input[type="submit"] {
+    padding: 15px 20px;
+    border: 1px solid #F44509;
+    border-radius: 5px;
+    background-color: #18191F;
+    color: #fff;
+    font-weight: 700;
+}
