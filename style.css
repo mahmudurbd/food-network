@@ -155,3 +155,15 @@ h3 {
     color: #fff;
     font-weight: 700;
 }
+/*------ footer area------ */
+footer {
+    padding: 50px;
+    background-color: #0B0D17;
+    text-align: center;
+}
+footer p {
+    color: #fff;
+}
+.footer-hightlight {
+    color: #FC7F42;
+}
