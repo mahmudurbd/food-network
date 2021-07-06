@@ -12,6 +12,10 @@ h2 {
     color: #707070;
     font-weight: 700;
 }
+h3 {
+    font-weight: 800;
+    font-size: 28px;
+}
 /*------ banner area------ */
 .banner-area {
     display: flex;
@@ -58,7 +62,7 @@ h2 {
 .about-area {
     display: flex;
     padding-top: 50px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
     padding-left: 4%;
     padding-right: 4%;
     background-image: url(images/about-bg.png);
@@ -82,4 +86,38 @@ h2 {
     line-height: 36px;
     margin-bottom: 90px;
     color: #18191F;
+}
+/* ------recipies area------ */
+
+.recipies-top {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.recipies-top p {
+    width: 46%;
+    margin: 0 auto;
+}
+.recipies-bottom {
+    display: flex;
+    margin: 0 5%;
+    justify-content: center;
+}
+.col {
+    margin: 4% 2%;
+    padding: 20px;
+    box-shadow: 5px 5px 30px #ccc;
+    border-radius: 20px;
+}
+.col img {
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col h3 {
+    color: #18191F;
+}
+.col p {
+    line-height: 32px;
+    font-size: 18px;
 }
